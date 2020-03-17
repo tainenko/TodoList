@@ -9,4 +9,6 @@ export const filterReducer=(state=FilterType.ALL, action)=>{
         default:
             return state;
     }
-}
+};
+
+export default filterReducer;
